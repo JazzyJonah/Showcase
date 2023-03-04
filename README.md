@@ -1,2 +1,2 @@
 # Showcase
-A social media platform for colleges
+A Platform to Express Your True Self To Colleges

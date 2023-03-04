@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+	<title>Showcase</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+		body {background-color: black; color: white; text-align: center;}
+		h1 {border: 2px solid rgb(255,200,0);}
+		span {border: 2px solid rgb(255,500,0);}
+		img {display: block; margin-left: auto; margin-right: auto}
+	</style>
+</head>
+
+
+<body style="background-color: black;"> <!-- Black background -->
+
+<!-- 	<form action="action_page.php" method="post">
+  		<div class="imgcontainer">
+    		<img src="templogo.png" alt="Avatar" class="avatar">
+  		</div>
+
+  		<div class="container">
+		    <label for="uname"><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" name="uname" required>
+
+		    <label for="psw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+
+		    <button type="submit">Login</button>
+		    <label>
+		    	<input type="checkbox" checked="checked" name="remember"> Remember me
+		    </label>
+		</div>
+
+		<div class="container" style="background-color:#f1f1f1">
+			<button type="button" class="cancelbtn">Cancel</button>
+		    <span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+	</form> -->
+<!-- 
+	<form action="/api/post" method="post">
+        <textarea name="username" cols="14" rows="1" placeholder="Username">Enter your username</textarea>
+        <textarea name="password" cols="14" rows="1" placeholder="Password">Enter your password</textarea>
+        <input type="submit" value="Create Post">
+    </form> -->
+
+	<img src = "templogo.png" alt = "logo" class="center">
+	<hr>
+
+
+	<input type="file" name="Upload your profile picture!" accept="image/*" onchange="loadFile(event)">
+	<p><img id="outputImage"/></p>
+	<script>
+	    var loadFile = function(event) {
+	        var image = document.getElementById('outputImage');
+	        image.src=URL.createObjectURL(event.target.files[0]);
+	    };
+	</script>
+
+
+
+	<label for="area"> Tell us about yourself! &nbsp</label>
+	<textarea id = "area" name="description" cols="30" rows="4" placeholder="Description"></textarea>
+	<button onclick="displayText()">Submit</button>
+	<br>
+	<p id="output"></p>
+	<script>
+		function displayText() {
+			const text = document.getElementById("area").value;
+			document.getElementById("output").textContent = text;
+		}
+	</script>
+
+
+	<br><br><br>
+
+<!-- 	<p>
+		<a 
+			href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+			target="_blank"
+		> 
+			Upload Picture! 
+		</a>
+	</p> -->
+
+<!-- 	<p>
+		Here's some praise for our website!
+	</p>
+	<blockquote>
+		Showcase is my favorite platform!
+	</blockquote> -->
+
+
+	<span style="font-size: 50px">&nbsp About &nbsp</span>
+	<p style="font-size: 30px;">Showcase is a social media platform meant for colleges to be able to see the achievements you've made over the years, and to see your <em>true</em> self.</p>
+	<br>
+
+
+<!-- 
+	<br><br><br>
+	<address>
+		Created by Jonah and Aditya
+	</address> -->
+
+
+
+
+</body>
+
+
+
+</html>

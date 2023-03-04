@@ -1,2 +1,2 @@
 # Showcase
-A Platform to Express Your True Self To Colleges
+A Platform Built to Express Your True Self To Colleges

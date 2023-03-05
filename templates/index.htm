@@ -9,47 +9,66 @@
 
 	<style type="text/css">
 		body {background-color: black; color: white; text-align: center;}
-		h1 {border: 2px solid rgb(255,200,0);}
-		span {border: 2px solid rgb(255,500,0);}
-		img {display: block; margin-left: auto; margin-right: auto}
+		h1 {border: 2px solid rgb(25,40,165);}
+		span {border: 2px solid rgb(25,40,165);}
+		img {margin-left: auto; margin-right: auto}
 	</style>
 </head>
 
 
-<body style="background-color: black;"> <!-- Black background -->
 
-<!-- 	<form action="action_page.php" method="post">
-  		<div class="imgcontainer">
-    		<img src="templogo.png" alt="Avatar" class="avatar">
-  		</div>
-
-  		<div class="container">
-		    <label for="uname"><b>Username</b></label>
-		    <input type="text" placeholder="Enter Username" name="uname" required>
-
-		    <label for="psw"><b>Password</b></label>
-		    <input type="password" placeholder="Enter Password" name="psw" required>
-
-		    <button type="submit">Login</button>
-		    <label>
-		    	<input type="checkbox" checked="checked" name="remember"> Remember me
-		    </label>
-		</div>
-
-		<div class="container" style="background-color:#f1f1f1">
-			<button type="button" class="cancelbtn">Cancel</button>
-		    <span class="psw">Forgot <a href="#">password?</a></span>
-		</div>
-	</form> -->
-<!-- 
-	<form action="/api/post" method="post">
-        <textarea name="username" cols="14" rows="1" placeholder="Username">Enter your username</textarea>
-        <textarea name="password" cols="14" rows="1" placeholder="Password">Enter your password</textarea>
-        <input type="submit" value="Create Post">
-    </form> -->
-
-	<img src = "templogo.png" alt = "logo" class="center">
+	<img src = "templogo.png" alt = "logo" class="center" style="type:block">
 	<hr>
+
+
+	<span style="font-size: 80px; color: rgb(80,171,202);">&nbsp About &nbsp</span>
+	<p style="font-size: 35px;background-color: rgb(80,171,202); color: black;">
+		College applications are very one sided. Most colleges don't ever get to know you as a person, but rather a faceless GPA and SAT score. We wanted to change this entirely, by creating a website where you can express your true self to colleges. Showcase is an online platform for high school students to create a 360 degree portfolio about themselves that highlights their unique talents, skills, interests, hobbies, and accomplishments to prospective universities, employers, or internships. Students can also promote their friends, share blog articles and projects, and create a community that helps each and everyone reach their fullest potential. With Showcase, colleges can see you as you. So join us and together let’s showcase our story!
+	</p>
+
+
+
+	<p style="font-size: 120px;">
+		<img src = "painter.png" alt = "painter">
+		Showcase your <em>creativity</em>
+	</p>
+	<hr>
+
+	<p style="font-size: 120px;">
+		Showcase your <em>style</em>
+		<img src="stylist.png" alt="stylist">
+	</p>
+	<hr>
+
+	<p style="font-size: 120px;">
+		<img src="victor.png" alt="victor">
+		Showcase your <em>victories</em>
+	</p>
+	<hr>
+
+	<p style="font-size: 120px;">
+		Showcase your <em>life</em>
+		<img src="life.png" alt="life">
+	</p>
+	<hr>
+
+	<img src="you.png" alt="you" style="margin-bottom: 0;">
+	<p style="font-size: 120px;">
+		Showcase <em><big><big><big>you</big></big></big></em>
+	</p>
+
+
+
+
+
+
+
+	<br>
+
+
+
+
+
 
 
 	<input type="file" name="Upload your profile picture!" accept="image/*" onchange="loadFile(event)">
@@ -60,8 +79,6 @@
 	        image.src=URL.createObjectURL(event.target.files[0]);
 	    };
 	</script>
-
-
 
 	<label for="area"> Tell us about yourself! &nbsp</label>
 	<textarea id = "area" name="description" cols="30" rows="4" placeholder="Description"></textarea>
@@ -75,8 +92,6 @@
 		}
 	</script>
 
-
-	<br><br><br>
 
 <!-- 	<p>
 		<a 
@@ -95,9 +110,6 @@
 	</blockquote> -->
 
 
-	<span style="font-size: 50px">&nbsp About &nbsp</span>
-	<p style="font-size: 30px;">Showcase is a social media platform meant for colleges to be able to see the achievements you've made over the years, and to see your <em>true</em> self.</p>
-	<br>
 
 
 <!-- 
